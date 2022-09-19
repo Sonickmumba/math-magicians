@@ -1,56 +1,73 @@
-![](https://img.shields.io/badge/Microverse-blueviolet)
+# Math Magicians
 
-# Project Name
+> "Math magicians" is a website for all fans of mathematics. It is a Single Page App (SPA) that allows users to make simple calculations and read a random math-related quote. It is built using React.
+## Built With ⚙️
 
-> Description the project.
+- **Major languages**: HTML, CSS, & JavaScript.
+- **Frameworks**: No-Frameworks.
+- **Linters**: Lighthouse, Webhint, Stylelint and ESLint.
+- **Technologies used**: NPM, Webpack, & Jest Library, API.
+- **Tools**: Git, Gitflow, GitHub, VS Code, & Chrome Browser.
 
+## Live Demo (Deployed on GitHub Pages with SSL)
 
-## Built With
+[Live Demo Link]()
 
-- Major languages
-- Frameworks
-- Technologies used
+## Video Presentation
 
-## Live Demo (if available)
-
-[Live Demo Link](https://livedemo.com)
-
+[Live Video Link]()
 
 ## Getting Started
-
-**This is an example of how you may give instructions on setting up your project locally.**
-**Modify this file to match your project, remove sections that don't apply. For example: delete the testing section if the currect project doesn't require testing.**
-
 
 To get a local copy up and running follow these simple example steps.
 
 ### Prerequisites
 
+- [x] Basic knowledge of **React**.
+- [x] Basic Knowledge of **HTML**, **CSS**, & **JavaScript**.
+- [x] Basic knowledge of **ES6** syntax.
+- [x] Basic knowledge of **Git**, **GitHub** &**Gitflow**.
+- [x] Basic knowledge of **Linters**.
+- [x] Basic knowledge of **Webpack**.
+- [x] Basic knowledge of **Jest** unit-testing library.
+- [x] Basic knowledge of **VS Code** or any other code-editors.
+
 ### Setup
 
-### Install
+- Create a new **Microverse** folder and move into it.
+- Open the **Command Prompt (CMD)** in the current directory (Microverse Folder).
+- Run the following command:
 
-### Usage
+```
+$ git clone git@github.com:Sonickmumba/Math-Magicians.git
+```
+
+- Once finished you should see a new folder called **Math Magicians** in your current directory.
+- Start customizing the project so it fits your personal preferences and needs.
+- Enjoy your new professional **Math Magicians Web** application!
 
 ### Run tests
 
+To check for linters, use the files provided by [Microverse](https://github.com/microverseinc/linters-config). A GitHub action is also set to run during pull request.
+
+```
+$ npm install
+```
+
 ### Deployment
 
-
+For deployment you can use the **[GitHub Pages](https://pages.github.com/)**.
 
 ## Authors
 
-👤 **Author1**
+👤 **Sonick Mumba ([Sonickmumba](https://github.com/Sonickmumba))**
 
-- GitHub: [@githubhandle](https://github.com/githubhandle)
-- Twitter: [@twitterhandle](https://twitter.com/twitterhandle)
-- LinkedIn: [LinkedIn](https://linkedin.com/in/linkedinhandle)
+- GitHub: [Sonickmumba](https://github.com/Sonickmumba)
+- Twitter: [@Sonick](https://twitter.com/MumbaSonick)
+- LinkedIn: [Sonick Mumba](https://www.linkedin.com/in/sonick-m-301557a2/)
+## Show your support
 
-👤 **Author2**
-
-- GitHub: [@githubhandle](https://github.com/githubhandle)
-- Twitter: [@twitterhandle](https://twitter.com/twitterhandle)
-- LinkedIn: [LinkedIn](https://linkedin.com/in/linkedinhandle)
+Give a ⭐️ if you like this project!
 
 ## 🤝 Contributing
 
@@ -58,14 +75,10 @@ Contributions, issues, and feature requests are welcome!
 
 Feel free to check the [issues page](../../issues/).
 
-## Show your support
-
-Give a ⭐️ if you like this project!
-
 ## Acknowledgments
 
-- Hat tip to anyone whose code was used
-- Inspiration
+- [Microverse](https://www.microverse.org/)
+- Code Reviewers & Coding Partners
 - etc
 
 ## 📝 License
