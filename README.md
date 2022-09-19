@@ -1,70 +1,88 @@
-# Getting Started with Create React App
+# Math Magicians
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+> "Math magicians" is a website for all fans of mathematics. It is a Single Page App (SPA) that allows users to make simple calculations and read a random math-related quote. It is built using React.
+## Built With ⚙️
 
-## Available Scripts
+- **Major languages**: HTML, CSS, & JavaScript.
+- **Frameworks**: No-Frameworks.
+- **Linters**: Lighthouse, Webhint, Stylelint and ESLint.
+- **Technologies used**: NPM, Webpack, & Jest Library, API.
+- **Tools**: Git, Gitflow, GitHub, VS Code, & Chrome Browser.
 
-In the project directory, you can run:
+## Live Demo (Deployed on GitHub Pages with SSL)
 
-### `npm start`
+[Live Demo Link]()
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+## Video Presentation
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+[Live Video Link]()
 
-### `npm test`
+## Getting Started
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+To get a local copy up and running follow these simple example steps.
 
-### `npm run build`
+### Prerequisites
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+- [x] Basic knowledge of **React**.
+- [x] Basic Knowledge of **HTML**, **CSS**, & **JavaScript**.
+- [x] Basic knowledge of **ES6** syntax.
+- [x] Basic knowledge of **Git**, **GitHub** &**Gitflow**.
+- [x] Basic knowledge of **Linters**.
+- [x] Basic knowledge of **Webpack**.
+- [x] Basic knowledge of **Jest** unit-testing library.
+- [x] Basic knowledge of **VS Code** or any other code-editors.
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+### Setup
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+- Create a new **Microverse** folder and move into it.
+- Open the **Command Prompt (CMD)** in the current directory (Microverse Folder).
+- Run the following command:
 
-### `npm run eject`
+```
+$ git clone git@github.com:Sonickmumba/Math-Magicians.git
+```
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+- Once finished you should see a new folder called **Math Magicians** in your current directory.
+- Start customizing the project so it fits your personal preferences and needs.
+- Enjoy your new professional **Math Magicians Web** application!
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+### Run tests
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+To check for linters, use the files provided by [Microverse](https://github.com/microverseinc/linters-config). A GitHub action is also set to run during pull request.
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
+```
+$ npm install
+```
 
 ### Deployment
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
+For deployment you can use the **[GitHub Pages](https://pages.github.com/)**.
 
-### `npm run build` fails to minify
+## Authors
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+👤 **Sonick Mumba ([Sonickmumba](https://github.com/Sonickmumba))**
+
+- GitHub: [Sonickmumba](https://github.com/Sonickmumba)
+- Twitter: [@Sonick](https://twitter.com/MumbaSonick)
+- LinkedIn: [Sonick Mumba](https://www.linkedin.com/in/sonick-m-301557a2/)
+## Show your support
+
+Give a ⭐️ if you like this project!
+
+## 🤝 Contributing
+
+Contributions, issues, and feature requests are welcome!
+
+Feel free to check the [issues page](../../issues/).
+
+## Acknowledgments
+
+- [Microverse](https://www.microverse.org/)
+- Code Reviewers & Coding Partners
+- etc
+
+## 📝 License
+
+This project is [MIT](./LICENSE) licensed.
+
+_NOTE: we recommend using the [MIT license](https://choosealicense.com/licenses/mit/) - you can set it up quickly by [using templates available on GitHub](https://docs.github.com/en/communities/setting-up-your-project-for-healthy-contributions/adding-a-license-to-a-repository). You can also use [any other license](https://choosealicense.com/licenses/) if you wish._
