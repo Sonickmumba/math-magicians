@@ -50,10 +50,11 @@ body {
   text-align: right;
   height: 50px;
   font-size: 1.5rem;
+  color: #fff;
   background-color: rgb(133, 134, 146);
 }
 
-.btn-span-two {
+.btn-to-span-two {
   grid-column: span 2;
   margin: 0;
   background-color: rgb(224, 224, 224);
