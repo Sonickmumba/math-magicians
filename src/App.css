@@ -13,17 +13,7 @@ body {
   width: 300px;
   grid-template-rows: repeat(6, 1fr);
   grid-template-columns: repeat(auto-fit, 75px);
-  gap: 0;
   margin: 40px auto;
-}
-
-.operand {
-  width: 100%;
-  background-color: rgb(133, 134, 146);
-  outline: none;
-  border: 0;
-  text-align: right;
-  font-size: 1.5rem;
 }
 
 .btn {
@@ -34,12 +24,8 @@ body {
   border: 1px solid rgb(202, 202, 202);
 }
 
-.operation {
-  margin: 0;
-  border-radius: 0;
-  height: 50px;
+.button-operation {
   background-color: rgb(244, 141, 75);
-  border: 1px solid rgb(202, 202, 202);
 }
 
 .output-result {
@@ -52,11 +38,9 @@ body {
   font-size: 1.5rem;
   color: #fff;
   background-color: rgb(133, 134, 146);
+  padding-right: 4px;
 }
 
-.btn-to-span-two {
+.zero-button {
   grid-column: span 2;
-  margin: 0;
-  background-color: rgb(224, 224, 224);
-  border: 1px solid rgb(202, 202, 202);
 }
