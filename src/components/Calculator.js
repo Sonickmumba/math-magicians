@@ -1,35 +1,80 @@
 import React from 'react';
 import '../App.css';
+import calculate from '../logic/calculate';
 
 class Calculator extends React.Component {
   constructor(props) {
     super(props);
-    this.state = {};
+    this.state = {
+      next: null,
+      total: '0',
+      operation: null,
+    };
+    this.handleClick = this.handleClick.bind(this);
   }
 
+  handleClick = (e) => {
+    e.preventDefault();
+    const { next, total, operation } = calculate(this.state, e.target.name);
+
+    if (next === null && total === null) {
+      this.setState({ next, total: '0', operation });
+    } else {
+      this.setState({ next, total, operation });
+    }
+  };
+
   render() {
+    const { total, next } = this.state;
+    const btnNames = [
+      'AC',
+      '+/-',
+      '%',
+      '÷',
+      '7',
+      '8',
+      '9',
+      'x',
+      '4',
+      '5',
+      '6',
+      '-',
+      '1',
+      '2',
+      '3',
+      '+',
+      '0',
+      '.',
+      '=',
+    ];
     return (
       <div className="calculator-grid-container">
-        <div className="output-result">0</div>
-        <button type="button" className="btn">AC</button>
-        <button type="button" className="btn">+/-</button>
-        <button type="button" className="btn">%</button>
-        <button type="button" className="operation">÷</button>
-        <button type="button" className="btn">7</button>
-        <button type="button" className="btn">8</button>
-        <button type="button" className="btn">9</button>
-        <button type="button" className="operation">×</button>
-        <button type="button" className="btn">4</button>
-        <button type="button" className="btn">5</button>
-        <button type="button" className="btn">6</button>
-        <button type="button" className="operation">-</button>
-        <button type="button" className="btn">1</button>
-        <button type="button" className="btn">2</button>
-        <button type="button" className="btn">3</button>
-        <button type="button" className="operation">+</button>
-        <button type="button" className="btn-to-span-two">0</button>
-        <button type="button" className="btn">.</button>
-        <button type="button" className="operation">=</button>
+        { next ? (
+          <div className="output-result">
+            { next }
+          </div>
+        ) : (
+          <div className="output-result">
+            { total }
+          </div>
+        )}
+        { btnNames.map((btnName) => (
+          <button
+            onClick={(e) => this.handleClick(e)}
+            name={btnName}
+            type="button"
+            className={`btn ${btnName === '0' ? 'zero-button' : ''}
+            ${btnName === '=' ? 'button-operation' : ''}
+            ${btnName === '÷' ? 'button-operation' : ''}
+            ${btnName === 'x' ? 'button-operation' : ''}
+            ${btnName === '-' ? 'button-operation' : ''}
+            ${btnName === '+' ? 'button-operation' : ''}`}
+            key={btnName}
+          >
+            { btnName }
+          </button>
+        ))}
+
       </div>
     );
   }
