@@ -44,32 +44,37 @@ const Calculator = () => {
   ];
 
   return (
-    <div className="calculator-grid-container">
-      { next ? (
-        <div className="output-result">
-          { next }
-        </div>
-      ) : (
-        <div className="output-result">
-          { total }
-        </div>
-      )}
-      { btnNames.map((btnName) => (
-        <button
-          onClick={handleClick}
-          name={btnName}
-          type="button"
-          className={`btn ${btnName === '0' ? 'zero-button' : ''}
-          ${btnName === '=' ? 'button-operation' : ''}
-          ${btnName === '÷' ? 'button-operation' : ''}
-          ${btnName === 'x' ? 'button-operation' : ''}
-          ${btnName === '-' ? 'button-operation' : ''}
-          ${btnName === '+' ? 'button-operation' : ''}`}
-          key={btnName}
-        >
-          { btnName }
-        </button>
-      ))}
+    <div className="calculator-main-container">
+      <div className="calculator-title-container">
+        <h2 className="calculator-title">Let us do some math!</h2>
+      </div>
+      <div className="calculator-grid-container">
+        { next ? (
+          <div className="output-result">
+            { next }
+          </div>
+        ) : (
+          <div className="output-result">
+            { total }
+          </div>
+        )}
+        { btnNames.map((btnName) => (
+          <button
+            onClick={handleClick}
+            name={btnName}
+            type="button"
+            className={`btn ${btnName === '0' ? 'zero-button' : ''}
+            ${btnName === '=' ? 'button-operation' : ''}
+            ${btnName === '÷' ? 'button-operation' : ''}
+            ${btnName === 'x' ? 'button-operation' : ''}
+            ${btnName === '-' ? 'button-operation' : ''}
+            ${btnName === '+' ? 'button-operation' : ''}`}
+            key={btnName}
+          >
+            { btnName }
+          </button>
+        ))}
+      </div>
     </div>
   );
 };
