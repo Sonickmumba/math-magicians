@@ -11,7 +11,7 @@
 
 ## Live Demo (Deployed on GitHub Pages with SSL)
 
-[Live Demo Link]()
+[Live Demo Link](https://dancing-conkies-c08f95.netlify.app/quote)
 
 ## Video Presentation
 
