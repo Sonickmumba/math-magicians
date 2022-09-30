@@ -1,0 +1,9 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Test for Quote component Quote Component renders correctly 1`] = `
+<p
+  className="math-quote"
+>
+  Mathematics is not about numbers, equations, computations, or algorithms: Its about understanding. - Williams Paul Thurston
+</p>
+`;
