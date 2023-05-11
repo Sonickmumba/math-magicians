@@ -5,11 +5,11 @@ const NavLinks = () => (
   <nav id="navbar-container">
     <ul className="navbar-items">
       <li className="nav-link">
-        <Link to="/">Home</Link>
+        <Link to="/home">Home</Link>
       </li>
       <span className="vertical-line" />
       <li className="nav-link">
-        <Link to="/calculator">Calculator</Link>
+        <Link to="/">Calculator</Link>
       </li>
       <span className="vertical-line" />
       <li className="nav-link">
